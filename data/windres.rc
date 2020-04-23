@@ -1,0 +1,25 @@
+winmailtest ICON "internet-mail.ico"
+1 VERSIONINFO
+FILEVERSION     0,1,1
+PRODUCTVERSION  0,1,1
+
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "Jonas Kvinge"
+      VALUE "FileDescription", "Windows MAPI Tester"
+      VALUE "FileVersion", "0.1.1"
+      VALUE "InternalName", "winmailtest"
+      VALUE "OriginalFilename", "winmailtest.exe"
+      VALUE "ProductName", "Windows MAPI Tester"
+      VALUE "ProductVersion", "0.1.1"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0809, 1252
+  END
+END
